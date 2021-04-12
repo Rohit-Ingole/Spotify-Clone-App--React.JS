@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.header__left {
+  flex: 0.4;
+  min-width: 70px;
+  background-color: white;
+  color: gray;
+  border-radius: 50px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.header__left input {
+  border: none;
+  width: 100%;
+}
+
+.header__right {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 50px;
+  padding: 3px;
+}
+
+.header__right p {
+  margin-left: 18px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.header__right Avatar {
+  font-size: 12px;
+}
