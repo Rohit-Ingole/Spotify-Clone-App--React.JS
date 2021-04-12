@@ -2,7 +2,7 @@
 
 export const authEndpoint = "https://accounts.spotify.com/authorize";
 
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://spotify-clone-app-832b2.web.app/";
 const clientId = "7d01358688b3451eb90952811e2f6eca";
 
 const scopes = [
